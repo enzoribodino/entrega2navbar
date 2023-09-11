@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+   font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blue;
+    padding: 1rem;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.logo{
+    border-radius: 10px;
+}
+.buscador{
+    font-size: xx-large;
+    border-radius: 20px;
+    width: 500px;
+   
+}
+
+
+.lupa{
+    border-radius: 40px;
+    width: 35px;
+}
+
+.boton{
+    border-radius: 40px;
+    width: 40px;
+    
+}
+a:hover {color: aqua;}
+
+
+
+
