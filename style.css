@@ -11,7 +11,6 @@ body{
     background-size:cover;
     background-position: center;
     font-size: 20px;
-
     color:#120907;
     font-family: 'DM Sans', sans-serif;
 font-family: 'Open Sans', sans-serif;
@@ -96,14 +95,19 @@ main{
     font-size: 24px;
     
 }
-
+/* estilo de los botones de la portada */
 .boton-hero{
    background-color: red;
    color: white;
    padding: 8px 20px;
    border-radius: 10px;
- 
-
+}
+/* efecto hover en los botones de la portada */
+.boton-hero:hover{
+    background-color: white;
+    color: red;
+    width: 100px;
+    transition: o.2s;
 }
 .imagen-hero{
    border-radius: 20px;
@@ -119,7 +123,6 @@ main{
 
 .span{
    font-size: 30px;
-   
 
 }
 
