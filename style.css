@@ -6,7 +6,7 @@
 }
 
 body{ 
-    background-image: url("https://images.pagina12.com.ar/styles/focal_16_9_960x540/public/2023-07/742810-8-a2-alejandroleiva.jpg?h=e16d9e5b&itok=HCrdYi2R");
+    background-color: darkgrey;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -106,7 +106,7 @@ main{
 .boton-hero:hover{
     background-color: white;
     color: red;
-    width: 100px;
+    padding: 10px 22px;
     transition: o.2s;
 }
 .imagen-hero{
@@ -143,6 +143,97 @@ main{
     text-align: center;
 
 }
+
+/* seccion de goleadores */
+.goleadores-section{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1200px;
+}
+
+/* caja contenedora de los goleadores (contiene las tres cajas) */
+.conteiner-goleadores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* caja de cada goleador  */
+.goleador{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 25px;    
+}
+
+/* efecto hover de la caja de cada goleador */
+.goleador:hover{
+    background-color: red;
+    color: white;
+    padding: 30px;
+}
+
+/* imagen de cada goleador  */
+.img-goleador{
+    border-radius: 15px;
+    
+}
+
+.section-contacto{
+    display: flex;
+    margin-top: 130px;
+   
+       
+}
+
+.h2-contacto{
+    display: flex;
+}
+
+.conteiner-contacto{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-right: 300px;  
+       
+}
+
+
+.ul-contacto{
+    display: flex;
+    flex-direction: column;
+}
+ /* bordes de la imgen del monumental */
+.img-contacto{
+   border-radius: 30px;
+}
+/* detalle de linea debajo del nombre del contacto */
+.p-enzo-contacto{
+    text-decoration: underline;
+}
+
+.footer{
+    margin-top: 100px;
+    padding: 5px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+    
+    
+
+
 
 
 
