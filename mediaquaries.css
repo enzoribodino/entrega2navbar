@@ -19,6 +19,7 @@ nav{
     max-width: 992px;
     width: 100%;
     flex-direction: row;
+    padding-right: 10px;
 }
 
 .logo{
@@ -53,10 +54,16 @@ nav{
 
 .lupa{
     display: flex;
-   
 
+}
 
+.botones{
+    display: flex;
+    margin-left: 190px;
+    gap: 350px;
 
+    
+  
 }
 .imagen-hero{
   display: none;
@@ -113,7 +120,7 @@ nav{
     align-items: center;
     text-align: center;
     justify-content: center;
-    margin-left: 100px;
+    margin-left: 170px;
 
 }
 .section2{
@@ -139,7 +146,8 @@ nav{
 @media(max-width:578px){
 
     body{
-  border: solid blue;
+  max-width: 578px;
+  width: 100%;
 
     }
     nav{
@@ -149,35 +157,73 @@ nav{
     }
   
     .conteiner{
-        border: solid blueviolet;
-
+        display: flex;
+        flex-direction: row;
+        padding-top: 5px;
+        padding-bottom: 5px;
      }
 
+     .buscador{
+        max-width: 150px;
+        width: 100px;
+        font-size:smaller;
+     }
 
+     .boton{
+        max-width: 300px;
+        width: 20px;
+     }
 
+     .lupa{
+        width: 20px;
+     }
 
+     .portada{
+        max-width: 578px;
+        width: 100%;
+     }
 
+     .hero-h1{
+        margin-left: 150px;
+     }
+    
+     .hero-p{
+        max-width: 578px;
+        width: 50%;
+        margin-left: 190px;  
+     }
 
+     .botones{
+        margin-left: 160px;
+        gap: 120px;
+     }
 
+     .section2{
+        max-width: 400px;
+        margin-left: 100px;
+     }
 
+     .goleadores-section{
+        max-width: 450px;
+        margin-left: 100px;
+        
+     }
+    .img-contacto{
+        max-width:200px;
+        
+    }
 
+    
 
+}
 
+@media (max-width:573px){
+   
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    .conteiner{
+        display: none;
+    }
+   
 
 
 
