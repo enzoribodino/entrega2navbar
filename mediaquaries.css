@@ -1,0 +1,187 @@
+/* tablet */
+@media(max-width:992px) {
+
+/* hero */
+body{
+    max-width: 992px;
+    width: 100%;
+}
+.portada{
+    text-align: center;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+
+}
+
+
+nav{
+    max-width: 992px;
+    width: 100%;
+    flex-direction: row;
+}
+
+.logo{
+   display: flex;
+   width: 40px;
+   margin-left: 1%;
+}
+
+.hero-p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 100px;
+}
+
+.conteiner{
+    max-width: 1000px;
+    display: flex;
+    flex-direction: row;
+
+}
+.buscador{
+    max-width: 360px;
+    width: 70%;
+   flex-wrap: nowrap;
+   margin-left: 20px; 
+   display: flex none;
+  
+}
+
+.lupa{
+    display: flex;
+   
+
+
+
+}
+.imagen-hero{
+  display: none;
+}
+
+.plantelimg{
+    display: none;
+}
+
+.conteiner-goleadores{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    width: 600px;
+    margin-right: 90px;
+    
+
+}
+
+.goleadores-section{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.section-contacto{
+    display: flex;
+    margin-right: 360px;
+    margin-left: 1px;
+    max-width: 1000px;
+    width: 60%;
+
+}
+
+.conteiner-contacto{
+   display: flex;
+   flex-wrap: nowrap;
+   flex-direction: column;
+   position: relative;
+   margin-left: 100px;
+   margin-right: 40px;
+}
+
+.img-contacto{
+    display: flex;
+    position:absolute;
+    max-width: 400px;
+   margin-right: 100px;
+
+
+
+}
+
+.hero-h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 100px;
+
+}
+.section2{
+    max-width: 992px;
+    width: 600px;
+    margin-left: 55px;
+    
+}
+
+.img-redes{
+    display: flex;
+}
+
+.footer{
+    margin-bottom: 50px;
+   
+    
+}
+
+ } 
+
+/* celus */
+@media(max-width:578px){
+
+    body{
+  border: solid blue;
+
+    }
+    nav{
+        max-width: 578px;
+        width: 100%;
+
+    }
+  
+    .conteiner{
+        border: solid blueviolet;
+
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

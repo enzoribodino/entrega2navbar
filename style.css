@@ -6,7 +6,7 @@
 }
 
 body{ 
-    background-color: darkgrey;
+    background-color: #7f7971;
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center;
@@ -17,12 +17,14 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
      
 }
+
+
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
-    padding: 1rem;
+    background: linear-gradient(to bottom, red, #5e0910);
+    /* padding: 1rem; */
 }
 
 ul{
@@ -34,6 +36,7 @@ ul{
 ul a {
     color: white;
     text-decoration: none;
+   
 
 }
 
@@ -67,7 +70,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    /* width: 100%; */
 }
 .portada{
     margin-top: 15px;
@@ -89,7 +92,10 @@ main{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 42px;
     width: 70%;
-}
+    background:linear-gradient(to top , red, white);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text; }
 
 .hero-p{
     font-size: 24px;
@@ -132,7 +138,7 @@ main{
 }
 
 .section2{ 
-    margin: 10px 100px 10px 100px;
+    margin: 10px 100px 10px 10px;
     display: flex;
     text-align: center;
     justify-content: center;
@@ -224,12 +230,10 @@ main{
 
 .footer{
     margin-top: 100px;
-    padding: 5px;
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: center;
 }
-
     
     
 
