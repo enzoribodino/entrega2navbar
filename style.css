@@ -17,20 +17,49 @@ font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
      
 }
+header{
+    position: fixed;
+    display: flex;
+    top: 0;
+    z-index: 1;
+}
 
-
+/* estilo del menu hamburguesa */
+nav i{
+    font-size: 36px;
+    color: white;
+   display: none;
+}
+#menu-toggel, .menu-label{
+    display: none;
+}
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: linear-gradient(to bottom, red, #5e0910);
+    position: fixed;
+    max-width: 1370px;
+    width: 100%;
+    padding: 1%;  
+    box-shadow: 0 8px 24px #f8efed;
+   
     /* padding: 1rem; */
 }
+
+.conteiner-cart-menu{
+    display: flex;
+    gap: 250px;
+}
+
+
 
 ul{
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 100px;
+    
+   
 }
 
 ul a {
@@ -40,27 +69,15 @@ ul a {
 
 }
 
+.cart-label{
+    display: flex;
+    justify-content: end;
+}
+
 .logo{
     border-radius: 10px;
 }
-.buscador{
-    font-size: xx-large;
-    border-radius: 20px;
-    width: 500px;
-   
-}
 
-
-.lupa{
-    border-radius: 40px;
-    width: 35px;
-}
-
-.boton{
-    border-radius: 40px;
-    width: 40px;
-    
-}
 a:hover {
     color: black;
 }
@@ -72,7 +89,7 @@ main{
     align-items: center;
     /* width: 100%; */
 }
-.portada{
+#portada{
     margin-top: 15px;
     padding: 75px 0;
     max-width: 1200px;
@@ -151,7 +168,7 @@ main{
 }
 
 /* seccion de goleadores */
-.goleadores-section{
+#goleadores-section{
     margin-top: 10px;
     margin-left: 10px;
     display: flex;

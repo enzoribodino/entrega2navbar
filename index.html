@@ -10,36 +10,45 @@
      <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz@1,9..40&family=Open+Sans:ital@1&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="mediaquaries.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="mediaquaries.css">
 </head>
 <body>
     
     <header>
-        
-    <nav>
-        
-        <img  class="logo"  src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Escudo_del_C_A_River_Plate.svg/826px-Escudo_del_C_A_River_Plate.svg.png width="40px">
-     <div class="conteiner">
-     
-        <form action="">
-        <input class="buscador"  type="search" placeholder="Buscar"   name="" id="">
-        <button class="boton">
-       <a href=""> <img class="lupa"  src="https://static.vecteezy.com/system/resources/previews/004/970/046/non_2x/magnifier-search-zoom-icon-on-white-background-free-vector.jpg"  alt=""> </button>
-       </button>
-    </form> </div>
 
-         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Posiciones</a></li>
+    <nav>
+        <img  class="logo"  src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Escudo_del_C_A_River_Plate.svg/826px-Escudo_del_C_A_River_Plate.svg.png width="40px">
+      <div class="conteiner-cart-menu">
+        <label for="menu-toggel" class="menu-label">
+              <i class="fa-solid fa-bars"></i>
+        </label>
+
+         <input type="checkbox" id="menu-toggel"> 
+
+         <ul class="nav-bar-list">
+            <li><a href="#portada">Home</a></li>
+            <li><a href="#goleadores-section">Goleadores</a></li>
             <li><a href="#">Fixture</a></li>
             <li><a href="#">Tienda</a></li>
             <li><a href="#">Noticias</a></li>
          </ul>
+           <!-- carrito desplegable  -->
+           <div>
+       <label for="cart-toggel" class="cart-label"> 
+        <i class="fa-solid fa-cart-shopping"></i>
+     </label>
+    </div>
+
+    </div> 
+
     </nav>
+    
+     
 </header>
 
 <main>
-    <section class="portada">
+    <section id="portada">
         <div class="hero">
             <h1 class="hero-h1">Descubre toda la información del club más grande de Argentina</h1>
             <p class="hero-p">El Club Atlético River Plate es una entidad polideportiva de Argentina, fundado el 25 de mayo de 1901. el cual participa en la Primera División de Argentina. Disputa sus partidos en el estadio Monumental, el de mayor capacidad en Sudamérica</p>
@@ -70,7 +79,7 @@
     </section>
 
     <!-- seccion de goleadores -->
-    <section class="goleadores-section">
+    <section id="goleadores-section">
         <h2>Goleadores de River Plate </h2>
         <p>Estos son los goleadores del primer equipo durante la temporada 2023</p>
 
