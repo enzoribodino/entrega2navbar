@@ -16,7 +16,8 @@ body{
 font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
      
-}
+}  
+            /* Encabezado */
 header{
     position: fixed;
     display: flex;
@@ -24,7 +25,7 @@ header{
     z-index: 1;
 }
 
-/* estilo del menu hamburguesa */
+/* estilo del menu hamburguesa en la barra de navegación */
 nav i{
     font-size: 36px;
     color: white;
@@ -80,7 +81,8 @@ ul a {
 
 a:hover {
     color: black;
-}
+}  
+                  /* Contenido de la pagína */
 
 main{ 
     display: flex;
@@ -137,7 +139,7 @@ main{
 }
 
 
-/* Contenedor de imagen y texto de camiseta */
+/* Contenedor de imagen y texto de camiseta  de la portada*/
 .camiseta-24{
     margin-left: 110px;
     display: flex;
@@ -210,7 +212,8 @@ main{
 .img-goleador{
     border-radius: 15px;
     
-}
+} 
+                   /* Sección de contacto  */
 
 .section-contacto{
     display: flex;
@@ -235,6 +238,7 @@ main{
 .ul-contacto{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
  /* bordes de la imgen del monumental */
 .img-contacto{
@@ -245,11 +249,14 @@ main{
     text-decoration: underline;
 }
 
+
+   /* Estilo del pie de pagína */
 .footer{
     margin-top: 100px;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
     
     

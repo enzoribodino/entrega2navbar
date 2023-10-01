@@ -45,20 +45,6 @@ nav i{
     gap: 40px;
 }
 
-/* hero */
-body{
-    max-width: 992px;
-    width: 100%;
-}
-#portada{
-    text-align: center;
-    align-items: center;
-    max-width: 900px;
-    width: 100%;
-
-}
-
-
 nav{
     max-width: 992px;
     width: 100%;
@@ -67,6 +53,20 @@ nav{
     
     
 }
+
+body{
+    max-width: 992px;
+    width: 100%;
+}
+/* hero */
+#portada{
+    text-align: center;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+
+}
+
 
 .logo{
    display: flex;
@@ -95,10 +95,19 @@ nav{
   display: none;
 }
 
+.hero-h1{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: 170px;
+
+}
+
 .plantelimg{
     display: none;
 }
-
+     /* seccion de goleadores  */
 .conteiner-goleadores{
     display: flex;
     flex-direction: column;
@@ -113,6 +122,8 @@ nav{
     margin-top: 20px;
     margin-right: 20px;
 }
+
+  /* sección de contacto */
 .section-contacto{
     display: flex;
     margin-right: 360px;
@@ -141,14 +152,6 @@ nav{
 
 }
 
-.hero-h1{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    margin-left: 170px;
-
-}
 .section2{
     max-width: 992px;
     width: 600px;
@@ -159,7 +162,7 @@ nav{
 .img-redes{
     display: flex;
 }
-
+    /* pie de pagina */
 .footer{
     margin-bottom: 50px;
    
@@ -189,7 +192,7 @@ nav{
         width: 20px;
      }
 
-
+                         /* PORTADA */
      #portada{
         max-width: 578px;
         width: 100%;
